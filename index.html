@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>counter</title>
+  </head>
+  <body>
+    <div id="co"></div>
+    <script>
+      let i=1;
+      function count(){
+        let res=document.getElementById("co");
+        res.innerHTML = i;
+        i++;
+      }
+      setInterval(count,1000);
+    </script>
+  </body>
+</html>
